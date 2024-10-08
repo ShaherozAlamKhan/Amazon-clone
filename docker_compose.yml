@@ -1,0 +1,12 @@
+ version: '3.8'  # Specify a supported version for compatibility
+
+ services:
+   web:
+     image: myapp  # Replace with your image name
+     ports:
+       - "8000:80"  # Map port 8081 on the host to port 80 in the container
+     restart: always  # Automatically restart the container if it stops
+     volumes:
+       - ./myapp:/app  # Mount the local directory 'myapp' to the container's '/app' directory
+     environment:
+       - VARIABLE_NAME=value  # Define environment variables for the container
