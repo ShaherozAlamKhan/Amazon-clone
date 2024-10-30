@@ -18,6 +18,11 @@ The aim of this project is to develop an Amazon clone e-commerce website and int
 2. Implement a CI/CD pipeline using Jenkins to automate the build, test, and deployment processes.
 3. Host the website on AWS and configure automatic updates through Jenkins on code changes in GitHub.
 
+## Architecture
+
+   ![jenkins](https://github.com/user-attachments/assets/7e6bfe05-b035-495b-91ad-8b731822be0b)
+
+
 ## Steps
 
 ### 1. Configuring AWS Resources
