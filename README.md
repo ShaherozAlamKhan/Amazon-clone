@@ -186,4 +186,7 @@ exit
 ### 11. Testing Automatic Builds
 Update a file in the GitHub repository (such as `index.html`) and commit the changes. This will initiate the build process through a webhook in Jenkins, ensuring that the updates are reflected in real-time on the EC2 instance.
 
+### Documentation Link
+https://docs.google.com/document/d/1POff1tbpLHgK86DT56q-na1vTPWCI2vtTqJ9trpKgYc/edit?usp=sharing
+
 
